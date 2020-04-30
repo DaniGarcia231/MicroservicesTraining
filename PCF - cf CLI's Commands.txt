@@ -1,0 +1,25 @@
+*****************************************************************************************************************************************			
+*	       O P E R A T I O N S                     *	     			 C O M M A N D S                        	*		
+*                                                      *						     				*
+*****************************************************************************************************************************************
+* 1. Login					       * 1. >cf login -a https:/api.run.pivotal		    				*
+* 2. Logout                                            * 2. >cf logout                                           			*
+* 3. Target(switch to) specific org and space	       * 3. >cf target danigq26-org development                                 	*
+* 4. Deploy application			               * 4. >cf push cf-demoApp-DanielG (my app name) / >cf push -b [repo]		*
+* 5. Delete application				       * 5. >cf delete cf-demoApp-DanielG                                          	*
+* 6. Create User provided service		       * 6. >cf create-user-provided-service (H.U.)                    			*
+* 7. Update User provided service		       * 7. >cf update-user-provided-service (H.U.)                   			*
+* 8. Bind service				       * 8. >cf bind-service cf-demoApp-DanielG cf-demo-db [AppName / ServiceInstance]  *
+* 9. Unbind service				       * 9. >cf unbind-service cf-demoApp-DanielG cf-demo-stream                        *
+* 10 Delete user provide service                       * 10. >cf delete-service cf-demo-db                                		*
+* 11. Restage application                              * 11. >cf restage cf-demoApp-DanielG                                        	*
+* 12. Restart application                              * 12. >cf restart cf-demoApp-DanielG                                       	*
+* 13. Rolling restart application                      * 13. >cf restart-app-instance [App Name] [Instance] (H.U.)              	*
+* 14. Verify value of environment variable             * 14. >cf env cf-demoApp-DanielG                                             	*
+* 15. Update value of environment variable             * 15. >cf set-env [AppName] [ENV_NAME] [ENV_VALUE] (H.U.)                	*
+* 16. List all applications deployed in current space  * 16. >cf apps  /  >cf app cf-demoApp-DanielG                                    *
+* 17. List all services available in current space     * 17. >cf services  /  >cf service cf-demo-stream                        	*
+*						       *                                                     				*
+*****************************************************************************************************************************************
+
+								(H.U.) = Haven't Used this command
